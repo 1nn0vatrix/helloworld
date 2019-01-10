@@ -1,9 +1,6 @@
 #include <iostream>
 
-int main() {
-#include <iostream>
-
-    using namespace std;
+using namespace std;
 
 // main program
     int main() {
@@ -19,7 +16,7 @@ int main() {
         cout << "Long lines are bad, limit it to 80 characters, use CLion > Settings > Editor > Code Style > Visual Guides" << endl;
 
         cout << "Hello, World!" << endl;
-
+        //fixing memory leak
+        delete[] leak;
         return 0;
-    }
 }
